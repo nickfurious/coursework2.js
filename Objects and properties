@@ -1,0 +1,88 @@
+
+
+// /***********************
+//  * Arrays
+//  */
+// //Intitialize New Array
+// var names = ['John', 'Mark', 'Jane'];
+// var years = new Array(1998, 1969, 1948);
+
+// console.log(names[2]);
+// console.log(names.length);
+
+// names[1] = 'Ben';
+// console.log(names);
+// console.log(names[1]);
+// console.log(names);
+
+// //Differnt data types
+// // var John = ['John', 'Smith', 1993, 'teacher', false];
+
+// // John.push('blue');
+// // John.unshift('Mr.')
+// // console.log(John);
+
+// // John.pop();
+// // John.pop();
+// // John.shift();
+// // console.log(John);
+
+// // console.log(John.indexOf(23));
+
+// // var isDesigner = John.indexOf('designer') === -1 ? 'John is not a designer' : 'John Is a designer';
+// // console.log(isDesigner);
+
+// //Code Challenge 3
+
+// function tipCalculator() {
+//   var bill = 10;
+//   var percentage;
+//   if (bill < 50) {
+//     percentage = .2;
+//   } else if ( bill >= 50 && bill < 200) {
+//     percentage = .15;
+//   } else {
+//     percentage = .1;
+//   }
+//   return percentage * bill;
+// }
+
+// console.log(tipCalculator(10));
+
+// var bills = [124, 48, 268];
+// var tips = [tipCalculator(bills[0]),
+//             tipCalculator(bills[1]),
+//             tipCalculator(bills[2])];   
+// var finalValues = [bills[0] + tips[0],
+//                    bills[1] + tips[1],
+//                    bills[0] + tips[0]];       
+            
+// console.log(tips, finalValues);
+
+/*********************
+ * Objects and Properties
+ */
+//Object Literal
+var john = {
+  firstName: 'john',
+  lastName: 'smith',
+  birthYear: 1998,
+  family: ['Jane', 'mark', 'bob']
+  
+
+};
+
+john.job = 'designer';
+console.log(john);
+
+
+
+
+
+
+
+
+
+
+
+
